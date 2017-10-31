@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/exam02/inc/node.h
+
+../lib/exam02/inc/ordered_linkedlist.h
+node.h
+../lib/exam02/inc/node.h
+
+/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/node.cpp
+node.h
+/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/node.h
+
+/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/ordered_linkedlist.cpp
+ordered_linkedlist.h
+/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/ordered_linkedlist.h
+iostream
+-
+

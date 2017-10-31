@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libexam02_lib.a  CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.o CMakeFiles/exam02_lib.dir/src/node.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libexam02_lib.a

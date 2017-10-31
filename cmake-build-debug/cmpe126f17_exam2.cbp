@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cmpe126f17_exam2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.7.0\;CMake Files\test\lib\gtest-1.7.0\cmake\;CMake Files\lib\;CMake Files\lib\exam02\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmpe126f17_exam2">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/cmpe126f17_exam2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmpe126f17_exam2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmpe126f17_exam2/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/cmpe126f17_exam2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmpe126f17_exam2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exam02_main">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 exam02_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exam02_main/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 exam02_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exam02_lib">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/libexam02_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 exam02_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exam02_lib/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/libexam02_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 exam02_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/exam02_lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicTests">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/runBasicTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runBasicTests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicTests/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/runBasicTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 runBasicTests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
+					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
+					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc/node.h">
+			<Option target="exam02_lib"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc/ordered_linkedlist.h">
+			<Option target="exam02_lib"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/node.cpp">
+			<Option target="exam02_lib"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/ordered_linkedlist.cpp">
+			<Option target="exam02_lib"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/main.cpp">
+			<Option target="cmpe126f17_exam2"/>
+			<Option target="exam02_main"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/exam02_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\exam02\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
