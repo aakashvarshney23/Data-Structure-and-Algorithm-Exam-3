@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/src/gtest-all.cc" "/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/src/gtest-all.cc" "C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/exam02/inc"
+  "/include"
   "../test/lib/gtest-1.7.0/include"
   "../test/lib/gtest-1.7.0"
   )

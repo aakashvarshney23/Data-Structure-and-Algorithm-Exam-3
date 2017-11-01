@@ -8,170 +8,150 @@
 		<Option virtualFolders="CMake Files\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\gtest-1.7.0\;CMake Files\test\lib\gtest-1.7.0\cmake\;CMake Files\lib\;CMake Files\lib\exam02\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option working_dir="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main">
-				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="gtest_main/fast">
-				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
-				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option output="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
-				<Option output="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option output="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/inc"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/include"/>
-					<Add directory="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/x86_64-apple-darwin16.3.0"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/../../../../../../include/c++/6.3.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/include"/>
-					<Add directory="/usr/local/Cellar/gcc/6.3.0_1/lib/gcc/6/gcc/x86_64-apple-darwin16.3.0/6.3.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/gokay/CLionProjects/cmpe126f17_exam2/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
+					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~4.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/src/gtest-all.cc">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/src/gtest_main.cc">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\test\lib\gtest-1.7.0\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/CMakeLists.txt">
+		<Unit filename="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lib\exam02\"/>
 		</Unit>
 	</Project>

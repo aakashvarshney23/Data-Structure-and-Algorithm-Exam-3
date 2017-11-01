@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/gokay/CLionProjects/cmpe126f17_exam2/main.cpp
+../lib/exam02/inc/node.h
+
+../lib/exam02/inc/ordered_linkedlist.h
+node.h
+../lib/exam02/inc/node.h
+
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/main.cpp
 iostream
 -
+ordered_linkedlist.h
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/ordered_linkedlist.h
 

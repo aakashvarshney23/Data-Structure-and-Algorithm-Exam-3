@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -12,13 +12,13 @@
 node.h
 ../lib/exam02/inc/node.h
 
-/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/node.cpp
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/node.cpp
 node.h
-/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/node.h
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/node.h
 
-/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/ordered_linkedlist.cpp
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/ordered_linkedlist.cpp
 ordered_linkedlist.h
-/Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02/src/ordered_linkedlist.h
+C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/ordered_linkedlist.h
 iostream
 -
 

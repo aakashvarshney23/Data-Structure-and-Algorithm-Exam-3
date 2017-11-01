@@ -1,4 +1,8 @@
 # Lab Exam 2 #
-In this exam you will be implementing an ordered linked list either acending or decending. In addition to the usual insert() and delete() methods you will also implement union(), intersection() and reverse() methods. Ordered linked lists are great for getting max or min values in O(1) time (based on the ordering). Hence, you will also write print_topk() and print_bottomk() methods.
+###### Thursday November 2, 2017 ######
+In this exam you will be implementing the C++ standard library object, `map`. The object allows us to store an arbitrary number of key/value pairs.
 
-The exam is open everthing but this does not mean that you can copy paste a solution from an internet resource. Dont forget copy/paste is plagarism and is not approprate by SJSU. You may go read learn how to do it but code it by your own. This is completely fine.
+You have been provided with a template for each of the map functions that you need to implement. You will need to implement each of the functions, as well as add any classes or files required. 
+
+##### Hints #####
+You will 

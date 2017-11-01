@@ -1,8 +1,8 @@
-# Install script for directory: /Users/gokay/CLionProjects/cmpe126f17_exam2/lib/exam02
+# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cmpe126f17_exam2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
