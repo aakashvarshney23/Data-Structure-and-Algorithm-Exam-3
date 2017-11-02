@@ -24,7 +24,7 @@ As for grading, you **must** turn in code that compiles! **TESTS THAT DON'T COMP
 
 *void map::clear()*: Empty the map by deleting all of the items in the map.
 
-*int& operator[] (std::string key):* Replace the key with the given integer.
+*int& operator[] (std::string key):* Replace the key with the given integer. [Here](http://www.learncpp.com/cpp-tutorial/98-overloading-the-subscript-operator/) is a tutorial on how to overload the [] operator.
 
 *void print()*: Print the map with the following format.
     
