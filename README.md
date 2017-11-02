@@ -1,6 +1,6 @@
 # Lab Exam 2 #
 ###### Thursday November 2, 2017 ######
-In this exam you will be implementing the C++ standard library object, `map`. This object allows us to store an arbitrary number of key/value pairs. We can then recall the value by asking looking for the key in the map. For more information on maps, reference the [c++ std::map reference.](http://www.cplusplus.com/reference/map/map/)
+In this exam you will be implementing the C++ standard library object, `map`. This object allows us to store an arbitrary number of key/value pairs. We can then recall the value by looking for the key in the map. For more information on maps, reference the [c++ std::map reference.](http://www.cplusplus.com/reference/map/map/)
 
 You have been provided with a template for each of the map functions that you need to implement. You will need to implement each of the functions, as well as add any functions, class, or files required. 
 
