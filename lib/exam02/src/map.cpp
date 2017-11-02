@@ -40,3 +40,8 @@ void map::clear()
 {
 
 }
+
+int& map::operator[](std::string key)
+{
+
+}

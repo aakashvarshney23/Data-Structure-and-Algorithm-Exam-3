@@ -16,8 +16,9 @@ public:
 
     void print(); // Print the map
 
-    void map::clear();  //Empty the map
+    void clear();  //Empty the map
 
+    int& operator[](std::string key); // Replace the key with the given integer.
 };
 
 

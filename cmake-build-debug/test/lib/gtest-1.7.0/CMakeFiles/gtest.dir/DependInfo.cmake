@@ -11,7 +11,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lib/exam02/inc"
-  "/include"
   "../test/lib/gtest-1.7.0/include"
   "../test/lib/gtest-1.7.0"
   )

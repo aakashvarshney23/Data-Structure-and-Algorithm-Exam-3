@@ -124,59 +124,32 @@ exam02_lib/fast:
 	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/build
 .PHONY : exam02_lib/fast
 
-src/node.obj: src/node.cpp.obj
+src/map.obj: src/map.cpp.obj
 
-.PHONY : src/node.obj
-
-# target to build an object file
-src/node.cpp.obj:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj
-.PHONY : src/node.cpp.obj
-
-src/node.i: src/node.cpp.i
-
-.PHONY : src/node.i
-
-# target to preprocess a source file
-src/node.cpp.i:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.i
-.PHONY : src/node.cpp.i
-
-src/node.s: src/node.cpp.s
-
-.PHONY : src/node.s
-
-# target to generate assembly for a file
-src/node.cpp.s:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.s
-.PHONY : src/node.cpp.s
-
-src/ordered_linkedlist.obj: src/ordered_linkedlist.cpp.obj
-
-.PHONY : src/ordered_linkedlist.obj
+.PHONY : src/map.obj
 
 # target to build an object file
-src/ordered_linkedlist.cpp.obj:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj
-.PHONY : src/ordered_linkedlist.cpp.obj
+src/map.cpp.obj:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj
+.PHONY : src/map.cpp.obj
 
-src/ordered_linkedlist.i: src/ordered_linkedlist.cpp.i
+src/map.i: src/map.cpp.i
 
-.PHONY : src/ordered_linkedlist.i
+.PHONY : src/map.i
 
 # target to preprocess a source file
-src/ordered_linkedlist.cpp.i:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.i
-.PHONY : src/ordered_linkedlist.cpp.i
+src/map.cpp.i:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.i
+.PHONY : src/map.cpp.i
 
-src/ordered_linkedlist.s: src/ordered_linkedlist.cpp.s
+src/map.s: src/map.cpp.s
 
-.PHONY : src/ordered_linkedlist.s
+.PHONY : src/map.s
 
 # target to generate assembly for a file
-src/ordered_linkedlist.cpp.s:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.s
-.PHONY : src/ordered_linkedlist.cpp.s
+src/map.cpp.s:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.s
+.PHONY : src/map.cpp.s
 
 # Help Target
 help:
@@ -187,12 +160,9 @@ help:
 	@echo ... edit_cache
 	@echo ... exam02_lib
 	@echo ... rebuild_cache
-	@echo ... src/node.obj
-	@echo ... src/node.i
-	@echo ... src/node.s
-	@echo ... src/ordered_linkedlist.obj
-	@echo ... src/ordered_linkedlist.i
-	@echo ... src/ordered_linkedlist.s
+	@echo ... src/map.obj
+	@echo ... src/map.i
+	@echo ... src/map.s
 .PHONY : help
 
 

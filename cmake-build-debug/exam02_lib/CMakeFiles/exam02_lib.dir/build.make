@@ -56,69 +56,42 @@ include exam02_lib/CMakeFiles/exam02_lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include exam02_lib/CMakeFiles/exam02_lib.dir/flags.make
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/flags.make
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/includes_CXX.rsp
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj: ../lib/exam02/src/ordered_linkedlist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\exam02_lib.dir\src\ordered_linkedlist.cpp.obj -c "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\ordered_linkedlist.cpp"
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/flags.make
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/includes_CXX.rsp
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj: ../lib/exam02/src/map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\exam02_lib.dir\src\map.cpp.obj -c "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\map.cpp"
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.i"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\ordered_linkedlist.cpp" > CMakeFiles\exam02_lib.dir\src\ordered_linkedlist.cpp.i
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exam02_lib.dir/src/map.cpp.i"
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\map.cpp" > CMakeFiles\exam02_lib.dir\src\map.cpp.i
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.s"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\ordered_linkedlist.cpp" -o CMakeFiles\exam02_lib.dir\src\ordered_linkedlist.cpp.s
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exam02_lib.dir/src/map.cpp.s"
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\map.cpp" -o CMakeFiles\exam02_lib.dir\src\map.cpp.s
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.requires:
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.requires:
 
-.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.requires
+.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.requires
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.provides: exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.requires
-	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.provides.build
-.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.provides
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.provides: exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.requires
+	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.provides.build
+.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.provides
 
-exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.provides.build: exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj
-
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/flags.make
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj: exam02_lib/CMakeFiles/exam02_lib.dir/includes_CXX.rsp
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj: ../lib/exam02/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\exam02_lib.dir\src\node.cpp.obj -c "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\node.cpp"
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exam02_lib.dir/src/node.cpp.i"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\node.cpp" > CMakeFiles\exam02_lib.dir\src\node.cpp.i
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exam02_lib.dir/src/node.cpp.s"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && C:\PROGRA~1\MINGW-~1\X86_64~4.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\lib\exam02\src\node.cpp" -o CMakeFiles\exam02_lib.dir\src\node.cpp.s
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.requires:
-
-.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.requires
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.provides: exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.requires
-	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.provides.build
-.PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.provides
-
-exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.provides.build: exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj
+exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.provides.build: exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj
 
 
 # Object files for target exam02_lib
 exam02_lib_OBJECTS = \
-"CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj" \
-"CMakeFiles/exam02_lib.dir/src/node.cpp.obj"
+"CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
 
 # External object files for target exam02_lib
 exam02_lib_EXTERNAL_OBJECTS =
 
-exam02_lib/libexam02_lib.a: exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj
-exam02_lib/libexam02_lib.a: exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj
+exam02_lib/libexam02_lib.a: exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj
 exam02_lib/libexam02_lib.a: exam02_lib/CMakeFiles/exam02_lib.dir/build.make
 exam02_lib/libexam02_lib.a: exam02_lib/CMakeFiles/exam02_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libexam02_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libexam02_lib.a"
 	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && $(CMAKE_COMMAND) -P CMakeFiles\exam02_lib.dir\cmake_clean_target.cmake
 	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1\EXAM02~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\exam02_lib.dir\link.txt --verbose=$(VERBOSE)
 
@@ -127,8 +100,7 @@ exam02_lib/CMakeFiles/exam02_lib.dir/build: exam02_lib/libexam02_lib.a
 
 .PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/build
 
-exam02_lib/CMakeFiles/exam02_lib.dir/requires: exam02_lib/CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj.requires
-exam02_lib/CMakeFiles/exam02_lib.dir/requires: exam02_lib/CMakeFiles/exam02_lib.dir/src/node.cpp.obj.requires
+exam02_lib/CMakeFiles/exam02_lib.dir/requires: exam02_lib/CMakeFiles/exam02_lib.dir/src/map.cpp.obj.requires
 
 .PHONY : exam02_lib/CMakeFiles/exam02_lib.dir/requires
 

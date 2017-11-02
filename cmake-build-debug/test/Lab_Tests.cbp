@@ -25,7 +25,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
@@ -48,7 +49,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
+					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++/backward"/>
@@ -71,7 +73,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
@@ -96,7 +97,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
@@ -121,7 +121,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>
@@ -146,7 +145,6 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/inc"/>
-					<Add directory="/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0/include"/>
 					<Add directory="C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0"/>
 					<Add directory="C:/Program Files/mingw-w64/x86_64-6.3.0-posix-seh-rt_v5-rev2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.3.0/include/c++"/>

@@ -22,14 +22,16 @@ As for grading, you **must** turn in code that compiles! **TESTS THAT DON'T COMP
 
 *bool erase(std::string key)*: Remove the key and data from the map. Return true if it is erased, and false if nothing is erased.
 
-*void print()*: Print the map.
+*void map::clear()*: Empty the map by deleting all of the items in the map.
+
+*int& operator[] (std::string key):* Replace the key with the given integer.
+
+*void print()*: Print the map with the following format.
     
     Key0: Data0
     Key1: Data1
     Key2: Data2
     etc...
-
-*void map::clear()*: Empty the map by deleting all of the items in the map.
 
 #### Hints ####
 * You will be using a singly or doubly linked list. To store your data.

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exam02_lib.dir/src/ordered_linkedlist.cpp.obj"
-  "CMakeFiles/exam02_lib.dir/src/node.cpp.obj"
+  "CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
   "libexam02_lib.pdb"
   "libexam02_lib.a"
 )
