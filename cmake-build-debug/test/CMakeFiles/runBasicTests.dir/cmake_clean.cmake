@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/runBasicTests.dir/exam02_tests.cpp.obj"
   "runBasicTests.pdb"
   "runBasicTests.exe"
   "runBasicTests.exe.manifest"
@@ -7,6 +6,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang )
   include(CMakeFiles/runBasicTests.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

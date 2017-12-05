@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../lib/exam02/inc/node.h
+../lib/exam3/inc/data_structure.h
+string
+-
 
-../lib/exam02/inc/ordered_linkedlist.h
-node.h
-../lib/exam02/inc/node.h
-
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/node.cpp
-node.h
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/node.h
-
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/ordered_linkedlist.cpp
-ordered_linkedlist.h
-C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02/src/ordered_linkedlist.h
-iostream
+C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/lib/exam3/src/data_structure.cpp
+data_structure.h
+C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/lib/exam3/src/data_structure.h
+string
 -
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test
+# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/lib/gtest-1.7.0/cmake_install.cmake")
+  include("C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/cmake-build-debug/test/lib/gtest-1.7.0/cmake_install.cmake")
 
 endif()
 

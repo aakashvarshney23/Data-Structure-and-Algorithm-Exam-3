@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exam02_lib.dir/src/map.cpp.obj"
+  "CMakeFiles/exam02_lib.dir/src/data_structure.cpp.obj"
   "libexam02_lib.pdb"
   "libexam02_lib.a"
 )

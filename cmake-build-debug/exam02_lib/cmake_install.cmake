@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/lib/exam02
+# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/lib/exam3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

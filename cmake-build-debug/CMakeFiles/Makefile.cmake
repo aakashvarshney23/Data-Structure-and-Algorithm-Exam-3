@@ -41,7 +41,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
-  "../lib/exam02/CMakeLists.txt"
+  "../lib/exam3/CMakeLists.txt"
   "../test/CMakeLists.txt"
   "../test/lib/gtest-1.7.0/CMakeLists.txt"
   "../test/lib/gtest-1.7.0/cmake/internal_utils.cmake"
@@ -56,16 +56,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "exam02_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exam3A_lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/lib/gtest-1.7.0/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/exam02_main.dir/DependInfo.cmake"
-  "CMakeFiles/cmpe126f17_exam2.dir/DependInfo.cmake"
-  "exam02_lib/CMakeFiles/exam02_lib.dir/DependInfo.cmake"
+  "CMakeFiles/exam3A_main.dir/DependInfo.cmake"
+  "CMakeFiles/cmpe126f17_exam3A.dir/DependInfo.cmake"
+  "exam3A_lib/CMakeFiles/exam3A_lib.dir/DependInfo.cmake"
   "test/CMakeFiles/runBasicTests.dir/DependInfo.cmake"
   "test/lib/gtest-1.7.0/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/lib/gtest-1.7.0/CMakeFiles/gtest_main.dir/DependInfo.cmake"

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/test/lib/gtest-1.7.0
+# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/test/lib/gtest-1.7.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

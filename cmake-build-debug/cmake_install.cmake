@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02
+# Install script for directory: C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/exam02_lib/cmake_install.cmake")
-  include("C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/test/cmake_install.cmake")
+  include("C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/cmake-build-debug/exam3A_lib/cmake_install.cmake")
+  include("C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/cmake-build-debug/test/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/alexn/ClionProjects/CMPE 126 Labs/cmpe126f17_lab_exam02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/alexn/ClionProjects/CMPE 126 Lab Exam 3/3A/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

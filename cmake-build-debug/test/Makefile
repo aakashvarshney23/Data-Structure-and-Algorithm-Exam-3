@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02"
+CMAKE_SOURCE_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\test\CMakeFiles\progress.marks"
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\CMakeFiles" "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\test\CMakeFiles\progress.marks"
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/clean
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/preinstall
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/runBasicTests.dir/rule:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runBasicTests.dir/rule
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runBasicTests.dir/rule
 .PHONY : test/CMakeFiles/runBasicTests.dir/rule
 
 # Convenience name for target.
@@ -121,35 +121,8 @@ runBasicTests: test/CMakeFiles/runBasicTests.dir/rule
 
 # fast build rule for target.
 runBasicTests/fast:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/build
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/build
 .PHONY : runBasicTests/fast
-
-exam02_tests.obj: exam02_tests.cpp.obj
-
-.PHONY : exam02_tests.obj
-
-# target to build an object file
-exam02_tests.cpp.obj:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam02_tests.cpp.obj
-.PHONY : exam02_tests.cpp.obj
-
-exam02_tests.i: exam02_tests.cpp.i
-
-.PHONY : exam02_tests.i
-
-# target to preprocess a source file
-exam02_tests.cpp.i:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam02_tests.cpp.i
-.PHONY : exam02_tests.cpp.i
-
-exam02_tests.s: exam02_tests.cpp.s
-
-.PHONY : exam02_tests.s
-
-# target to generate assembly for a file
-exam02_tests.cpp.s:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam02_tests.cpp.s
-.PHONY : exam02_tests.cpp.s
 
 # Help Target
 help:
@@ -160,9 +133,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... runBasicTests
 	@echo ... edit_cache
-	@echo ... exam02_tests.obj
-	@echo ... exam02_tests.i
-	@echo ... exam02_tests.s
 .PHONY : help
 
 
@@ -174,6 +144,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\alexn\CLIONP~1\CMPE12~2\CMPE12~1\CMAKE-~1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

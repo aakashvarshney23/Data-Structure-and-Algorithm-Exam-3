@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02"
+CMAKE_SOURCE_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\CMakeFiles" "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Labs\cmpe126f17_lab_exam02\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\alexn\ClionProjects\CMPE 126 Lab Exam 3\3A\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,43 +110,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exam02_main
+# Target rules for targets named exam3A_main
 
 # Build rule for target.
-exam02_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 exam02_main
-.PHONY : exam02_main
+exam3A_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exam3A_main
+.PHONY : exam3A_main
 
 # fast build rule for target.
-exam02_main/fast:
-	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/build
-.PHONY : exam02_main/fast
+exam3A_main/fast:
+	$(MAKE) -f CMakeFiles\exam3A_main.dir\build.make CMakeFiles/exam3A_main.dir/build
+.PHONY : exam3A_main/fast
 
 #=============================================================================
-# Target rules for targets named cmpe126f17_exam2
+# Target rules for targets named cmpe126f17_exam3A
 
 # Build rule for target.
-cmpe126f17_exam2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 cmpe126f17_exam2
-.PHONY : cmpe126f17_exam2
+cmpe126f17_exam3A: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 cmpe126f17_exam3A
+.PHONY : cmpe126f17_exam3A
 
 # fast build rule for target.
-cmpe126f17_exam2/fast:
-	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/build
-.PHONY : cmpe126f17_exam2/fast
+cmpe126f17_exam3A/fast:
+	$(MAKE) -f CMakeFiles\cmpe126f17_exam3A.dir\build.make CMakeFiles/cmpe126f17_exam3A.dir/build
+.PHONY : cmpe126f17_exam3A/fast
 
 #=============================================================================
-# Target rules for targets named exam02_lib
+# Target rules for targets named exam3A_lib
 
 # Build rule for target.
-exam02_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 exam02_lib
-.PHONY : exam02_lib
+exam3A_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exam3A_lib
+.PHONY : exam3A_lib
 
 # fast build rule for target.
-exam02_lib/fast:
-	$(MAKE) -f exam02_lib\CMakeFiles\exam02_lib.dir\build.make exam02_lib/CMakeFiles/exam02_lib.dir/build
-.PHONY : exam02_lib/fast
+exam3A_lib/fast:
+	$(MAKE) -f exam3A_lib\CMakeFiles\exam3A_lib.dir\build.make exam3A_lib/CMakeFiles/exam3A_lib.dir/build
+.PHONY : exam3A_lib/fast
 
 #=============================================================================
 # Target rules for targets named runBasicTests
@@ -193,8 +193,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/main.cpp.obj
-	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\exam3A_main.dir\build.make CMakeFiles/exam3A_main.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -203,8 +202,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\exam3A_main.dir\build.make CMakeFiles/exam3A_main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -213,8 +211,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\exam02_main.dir\build.make CMakeFiles/exam02_main.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles\cmpe126f17_exam2.dir\build.make CMakeFiles/cmpe126f17_exam2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\exam3A_main.dir\build.make CMakeFiles/exam3A_main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -223,11 +220,11 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... exam02_main
-	@echo ... rebuild_cache
-	@echo ... cmpe126f17_exam2
+	@echo ... exam3A_main
+	@echo ... cmpe126f17_exam3A
 	@echo ... edit_cache
-	@echo ... exam02_lib
+	@echo ... rebuild_cache
+	@echo ... exam3A_lib
 	@echo ... runBasicTests
 	@echo ... gtest
 	@echo ... gtest_main
