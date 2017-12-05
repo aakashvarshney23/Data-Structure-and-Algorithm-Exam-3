@@ -26,7 +26,7 @@ char data_structure::most_frequent() {
 }
 
 char data_structure::least_frequent() {
-    // Return the least frequency character int the data structure that actually exists
+    // Return the least frequent character in the data structure that actually exists
     return 0;
 }
 
