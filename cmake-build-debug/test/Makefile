@@ -124,6 +124,33 @@ runBasicTests/fast:
 	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/build
 .PHONY : runBasicTests/fast
 
+exam3A_tests.obj: exam3A_tests.cpp.obj
+
+.PHONY : exam3A_tests.obj
+
+# target to build an object file
+exam3A_tests.cpp.obj:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam3A_tests.cpp.obj
+.PHONY : exam3A_tests.cpp.obj
+
+exam3A_tests.i: exam3A_tests.cpp.i
+
+.PHONY : exam3A_tests.i
+
+# target to preprocess a source file
+exam3A_tests.cpp.i:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam3A_tests.cpp.i
+.PHONY : exam3A_tests.cpp.i
+
+exam3A_tests.s: exam3A_tests.cpp.s
+
+.PHONY : exam3A_tests.s
+
+# target to generate assembly for a file
+exam3A_tests.cpp.s:
+	cd /d C:\Users\alexn\CLIONP~1\CMPE12~4\3A\CMAKE-~1 && $(MAKE) -f test\CMakeFiles\runBasicTests.dir\build.make test/CMakeFiles/runBasicTests.dir/exam3A_tests.cpp.s
+.PHONY : exam3A_tests.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -133,6 +160,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... runBasicTests
 	@echo ... edit_cache
+	@echo ... exam3A_tests.obj
+	@echo ... exam3A_tests.i
+	@echo ... exam3A_tests.s
 .PHONY : help
 
 

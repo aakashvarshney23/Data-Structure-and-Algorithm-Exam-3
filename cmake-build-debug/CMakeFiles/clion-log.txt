@@ -9,15 +9,6 @@ CMake Error at CMakeLists.txt:20 (add_executable):
   .hxx .in .txx
 
 
-CMake Error at test/CMakeLists.txt:6 (add_executable):
-  Cannot find source file:
-
-    exam3A_tests.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
-  .hxx .in .txx
-
-
 CMake Error: CMake can not determine linker language for target: cmpe126f17_exam3A
 CMake Error: Cannot determine link language for target "cmpe126f17_exam3A".
 -- Generating done
