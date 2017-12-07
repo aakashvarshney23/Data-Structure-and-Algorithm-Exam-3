@@ -11,10 +11,6 @@ add_subdirectory(lib/exam3 exam3A_lib)
 
 add_subdirectory(test)
 
-
-
 target_link_libraries(exam3A_main exam3A_lib)
 
-
-#set(SOURCE_FILES main.cpp lib/exam3/src/ordered_linkedlist.cpp lib/exam3/src/node.cpp)
-add_executable(cmpe126f17_exam3A ${SOURCE_FILES} data_structure.cpp data_structure.h)
+target_link_libraries(exam3A_main exam3A_lib)
