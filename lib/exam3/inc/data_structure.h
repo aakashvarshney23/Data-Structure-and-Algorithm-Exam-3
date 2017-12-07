@@ -13,9 +13,9 @@ public:
     ~data_structure(); // Default destructor
 
     void sort(); // Sort the data structure first by frequency, greatest to least and then by character value, least to greatest.
-    char most_frequent(); // return the most frequent character in data structure
-    char least_frequent(); // return the least frequent character in the data structure
-    unsigned int frequency(char input_character); // return the frequency of a given character
+    int most_frequent(); // Return the most frequent number in the data structure. If there is more than one, return the highest value
+    int least_frequent(); // Return the least frequent number in the data structure. If there is more than one, return the lowest value
+    unsigned int frequency(int input_character); // Return the number of times the integer is in the data structure.
 
     friend std::ostream &operator<<(std::ostream &stream, const data_structure &structure);// Stream Insertion
     friend std::istream &operator>>(std::istream &stream, data_structure &structure); // Stream Extraction
