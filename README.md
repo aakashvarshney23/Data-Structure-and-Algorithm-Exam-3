@@ -32,6 +32,4 @@ Like always, you **must** turn in code that compiles! **TESTS THAT DON'T COMPILE
 
 #### Hints ####
 * You should test your functions using main, but like always, we will not be looking at your `main.cpp`.
-
-  
-
+* When in doubt, look at the `exam3B_tests.cpp` file for the expected behavior of a function.

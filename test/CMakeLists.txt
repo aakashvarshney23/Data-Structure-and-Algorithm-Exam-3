@@ -4,7 +4,7 @@ project(ExamTests)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_executable(runBasicTests
-        exam3A_tests.cpp
+        exam3B_tests.cpp
         )
 
 add_subdirectory(lib/gtest-1.7.0)
