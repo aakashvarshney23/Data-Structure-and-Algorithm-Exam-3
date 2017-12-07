@@ -212,8 +212,7 @@ TEST_F(tests_for_a_5, sort_and_print) {
     EXPECT_EQ("A:2,C:2,E:2,R:2, :1,I:1,M:1,P:1,T:1,Y:1", print_output);
 }
 
-TEST(crash_test_8, stream_constructor)
-{
+TEST(crash_test_8, stream_constructor){
     auto *stream_test1 = new data_structure();
     auto *stream_test2 = new data_structure();
     // Initial Fill
@@ -240,69 +239,83 @@ TEST(crash_test_8, frequency){
 }
 
 TEST_F(tests_for_a_8, frequency){
-    EXPECT_EQ(1, mixed100->frequency('h'));
-    EXPECT_EQ(1, mixed100->frequency('e'));
-    EXPECT_EQ(2, mixed100->frequency('l'));
-    EXPECT_EQ(1, mixed100->frequency('o'));
-    EXPECT_EQ(0, mixed100->frequency('t'));
+    EXPECT_EQ(1, mixed100->frequency(77));
+    EXPECT_EQ(1, mixed100->frequency(-5));
+    EXPECT_EQ(2, mixed100->frequency(0));
+    EXPECT_EQ(1, mixed100->frequency(53));
+    EXPECT_EQ(0, mixed100->frequency(12));
 
-    EXPECT_NE(0,  pi1000->frequency('\n'));
-    EXPECT_EQ(1,  pi1000->frequency('\''));
-    EXPECT_EQ(1,  pi1000->frequency('v'));
-    EXPECT_EQ(4,  pi1000->frequency('\n'));
-    EXPECT_EQ(24, pi1000->frequency(' '));
-    EXPECT_EQ(10, pi1000->frequency('c'));
-    EXPECT_EQ(2,  pi1000->frequency('.'));
-    EXPECT_EQ(8,  pi1000->frequency('t'));
-    EXPECT_EQ(1,  pi1000->frequency('T'));
-    EXPECT_EQ(18, pi1000->frequency('e'));
+    EXPECT_NE(0,  pi1000->frequency(1));
+    EXPECT_EQ(1,  pi1000->frequency(2));
+    EXPECT_EQ(1,  pi1000->frequency(3));
+    EXPECT_EQ(4,  pi1000->frequency(4));
+    EXPECT_EQ(24, pi1000->frequency(5));
+    EXPECT_EQ(10, pi1000->frequency(6));
+    EXPECT_EQ(2,  pi1000->frequency(7));
+    EXPECT_EQ(8,  pi1000->frequency(8));
+    EXPECT_EQ(1,  pi1000->frequency(9));
+    EXPECT_EQ(18, pi1000->frequency(0));
+
+    EXPECT_EQ(1, mixed1M->frequency(-154943));
+    EXPECT_EQ(1, mixed1M->frequency(837711));
+    EXPECT_EQ(1, mixed1M->frequency(-614599));
+    EXPECT_EQ(0, mixed1M->frequency(0));
 }
 
 TEST_F(tests_for_a_8, most_frequent){
-    EXPECT_EQ('l', mixed100->most_frequent());
-    EXPECT_EQ(' ', pi1000->most_frequent());
+    EXPECT_EQ(1, mixed1M->most_frequent());
+    EXPECT_EQ(1, mixed100->most_frequent());
+    EXPECT_EQ(1, pi1000->most_frequent());
 }
 
 TEST_F(tests_for_a_8, least_frequent){
-    EXPECT_EQ('o', mixed100->least_frequent());
-    EXPECT_EQ('v', pi1000->least_frequent());
+    EXPECT_EQ(1, mixed1M->least_frequent());
+    EXPECT_EQ(1, mixed100->least_frequent());
+    EXPECT_EQ(1, pi1000->least_frequent());
 }
 
 TEST_F(tests_for_a_8, sort_and_print) {
+    mixed1M->sort();
     mixed100->sort();
     pi1000->sort();
 
     testing::internal::CaptureStdout();
+    std::cout << *mixed1M;
+    std::string print_output = testing::internal::GetCapturedStdout();
+    EXPECT_EQ("", print_output);
+
+    testing::internal::CaptureStdout();
     std::cout << *mixed100;
-    std::string hello_output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ("l:2,e:1,h:1,o:1", hello_output);
+    print_output = testing::internal::GetCapturedStdout();
+    EXPECT_EQ("", print_output);
 
     testing::internal::CaptureStdout();
     std::cout << *pi1000;
-    std::string limrick_output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(" :24,e:18,a:13,o:13,c:10,s:10,l:9,n:9,t:8,i:7,m:6,h:5,\n:4,d:4,r:3,u:3,.:2,I:2,g:2,k:2,p:2,':1,A:1,B:1,S:1,T:1,q:1,v:1", limrick_output);
+    print_output = testing::internal::GetCapturedStdout();
+    EXPECT_EQ("1", print_output);
 }
 
 TEST_F(tests_for_a_8, overwrite_print){
     auto *empty_print_test = new data_structure();
+
     testing::internal::CaptureStdout();
     std::cout << *empty_print_test;
-
     std::string output = testing::internal::GetCapturedStdout();
     EXPECT_EQ("", output);
     delete empty_print_test;
 
-    std::stringstream("mixed100") >> *empty_print_test;
+    std::stringstream("4,2,4,23,2,-1,4") >> *empty_print_test;
     empty_print_test->sort();
     testing::internal::CaptureStdout();
     std::cout << *empty_print_test;
     std::string hello_output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ("l:2,e:1,h:1,o:1", hello_output);
+    EXPECT_EQ("", hello_output);
 
-    std::stringstream("Hello World") >> *empty_print_test;
+    std::stringstream("923,40294,23,4,32,1,3,4,3,212,1234,323,2,3,31,2") >> *empty_print_test;
     empty_print_test->sort();
     testing::internal::CaptureStdout();
     std::cout << *empty_print_test;
     std::string hello_world_output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ("l:3,o:2, :1,H:1,W:1,d:1,e:1,r:1", hello_world_output);
+    EXPECT_EQ("", hello_world_output);
+    delete empty_print_test;
 }
