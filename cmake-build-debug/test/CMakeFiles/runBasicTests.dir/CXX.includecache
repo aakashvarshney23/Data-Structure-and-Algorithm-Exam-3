@@ -1,10 +1,20 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
 #IncludeRegexTransform: 
+
+../lib/exam3/inc/data_structure.h
+string
+-
+iostream
+-
+node.h
+../lib/exam3/inc/node.h
+
+../lib/exam3/inc/node.h
 
 ../test/lib/gtest-1.7.0/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -246,7 +256,15 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/gokay/CLionProjects/cmpe126f17_exam2/test/exam02_tests.cpp
+C:/Users/aakas/CLionProjects/exam3b/test/exam3B_tests.cpp
 gtest/gtest.h
-/Users/gokay/CLionProjects/cmpe126f17_exam2/test/gtest/gtest.h
+C:/Users/aakas/CLionProjects/exam3b/test/gtest/gtest.h
+data_structure.h
+C:/Users/aakas/CLionProjects/exam3b/test/data_structure.h
+fstream
+-
+iostream
+-
+string
+-
 

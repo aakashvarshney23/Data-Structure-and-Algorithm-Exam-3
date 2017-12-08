@@ -91,7 +91,31 @@ int data_structure::least_frequent() {
 void data_structure::sort() {
     // Sort the data structure first by frequency, greatest to least and then by value, least to greatest.
     // Example: 1:3,42:4,17:3,11:1,46:1,3:2         sorted: 42:4,1:3,17:3,3:2,11:1,46:1
-    node *temp = head;
+//    node* ptr = head->next;
+//
+//    bool unsorted = true;
+//    while (unsorted) {
+//        unsorted = false;
+//        ptr = head->next;
+//
+//        while (ptr != nullptr) {
+//            node* next = ptr->next;
+//            if (next->data < ptr->data) {
+//                swap(ptr, next);
+//                ptr->next->prev = next;
+//                ptr->prev->next = next;
+//                next->prev->next = ptr;
+//                next->next->prev = ptr;
+//                ptr->next = next->next;
+//                ptr->prev = next->prev;
+//                next->
+//
+//                        unsorted = true;
+//            }
+//
+//            ptr = ptr->next;
+//        }
+//    }
 
 }
 
