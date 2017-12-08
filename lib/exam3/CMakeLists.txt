@@ -1,5 +1,6 @@
 set(HEADER_FILES
         inc/data_structure.h
+        inc/node.h
         )
 
 set(SOURCE_FILES

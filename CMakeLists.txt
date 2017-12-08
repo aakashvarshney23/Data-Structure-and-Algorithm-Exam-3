@@ -1,9 +1,10 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.8)
 project(cmpe126f17_exam3A)
 
-set(CMAKE_CXX_STANDARD 11)
+#set(CMAKE_CXX_STANDARD 11)
+add_definitions(-std=c++11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp lib/exam3/inc/node.h)
 add_executable(exam3A_main ${SOURCE_FILES})
 
 include_directories(lib/exam3/inc)

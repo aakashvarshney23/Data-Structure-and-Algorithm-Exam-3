@@ -1,11 +1,15 @@
 #ifndef EXAM_3_DATA_STRUCTURE_H
 #define EXAM_3_DATA_STRUCTURE_H
-#include <string>
-#include <ostream>
 
-class data_structure
-{
+#include <string>
+#include <iostream>
+#include "node.h"
+
+class data_structure {
 private:
+    int count;
+    node *head;
+    void insert_node(node *data);
 
 public:
     data_structure();  // Default constructor
@@ -20,6 +24,4 @@ public:
     friend std::ostream &operator<<(std::ostream &stream, const data_structure &structure);// Stream Insertion
     friend std::istream &operator>>(std::istream &stream, data_structure &structure); // Stream Extraction
 };
-
-
 #endif //EXAM_3_DATA_STRUCTURE_H
