@@ -1,4 +1,4 @@
-#include "gtest\gtest.h"
+#include "gtest/gtest.h"
 #include "data_structure.h"
 #include <fstream>
 #include <iostream>
